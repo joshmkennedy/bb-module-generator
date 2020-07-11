@@ -4,7 +4,7 @@ const { zipModule } = require("./zipModule.js");
 const { cleanUp } = require("./cleanup");
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const settingsData = [
   {
