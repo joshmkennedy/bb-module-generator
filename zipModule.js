@@ -1,7 +1,7 @@
 const archiver = require("archiver");
 const fs = require("fs");
 async function zipModule(moduleName) {
-  const source = `./modules/${moduleName}`;
+  const source = `./mods/${moduleName}`;
   const out = `./${moduleName}.zip`;
   await zipDirectory(source, out);
 }

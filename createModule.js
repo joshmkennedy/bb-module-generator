@@ -33,7 +33,7 @@ async function createModulePHP(data) {
 
 async function writeFileAsync(path, data) {
   return new Promise((resolve, reject) => {
-    fs.writeFile(`./modules/${path}`, data, "utf8", (e, data) => {
+    fs.writeFile(`./mods/${path}`, data, "utf8", (e, data) => {
       if (e) {
         reject(e);
       } else {
@@ -44,7 +44,7 @@ async function writeFileAsync(path, data) {
 }
 async function mkDirAsync(path) {
   return new Promise((resolve, reject) => {
-    fs.mkdir(`./modules/${path}`, (e) => {
+    fs.mkdir(`./mods/${path}`, (e) => {
       if (e) {
         reject(e);
       } else {

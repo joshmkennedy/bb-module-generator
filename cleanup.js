@@ -1,7 +1,7 @@
 const fs = require("fs");
 
 async function cleanUp(moduleName) {
-  removeDirAsync(`./modules/${moduleName}`);
+  removeDirAsync(`./mods/${moduleName}`);
   deleteFileAsync(`${moduleName}.zip`);
 }
 async function deleteFileAsync(path) {

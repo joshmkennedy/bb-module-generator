@@ -8,7 +8,7 @@ _: {{{use raw in template}}}
   moduleClassName
   moduleSlug
 
-  _moduleSettings
+  modsettings
   _allModuleTabs
   %isLast => (true && ',') 
   tabSlug
