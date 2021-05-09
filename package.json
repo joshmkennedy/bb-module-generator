@@ -6,7 +6,7 @@
   "dependencies": {
     "archiver": "^4.0.2",
     "express": "^4.17.1",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.7"
   },
   "scripts": {
     "start": "node ."
